@@ -11,7 +11,7 @@ flatpickr("#clock", {
         time_24hr: false, 
         dateFormat: "H:i", 
         defaultHour: 11,
-        defaultMinute: 00,
+        // defaultMinute: 00,
         minTime: "11:00",
     maxTime: "23:00",
     minuteIncrement: 30,
