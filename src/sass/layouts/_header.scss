@@ -1,0 +1,18 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.header__scroll {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  backdrop-filter: brightness(0.7);
+  z-index: 10;
+  transition: all 200ms ease-out;
+}

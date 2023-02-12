@@ -1,0 +1,17 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+
+  @media screen and (max-width: 767px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-content: center;
+  }
+}

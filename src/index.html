@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerícht</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;600;700&family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body class="body">
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                             Шапка сторінки                              -->
+    <!-- ----------------------------------------------------------------------- -->
+    <header class="header">
+      <div class="container">
+        <nav class="main-nav">
+          <a class="logo link tracking-in-expand" href="">Gerícht</a>
+          <button
+            class="menu-toggle js-open-menu"
+            type="button"
+            aria-expanded="false"
+            aria-controls="menu-container"
+          >
+            <svg class="menu-icon" aria-label="Переключатель мобильного меню">
+              <use
+                class="icon-menu"
+                href="./images/sprite-mob.svg#icon-menu"
+              ></use>
+            </svg>
+          </button>
+          <div class="menu-container js-menu-container" id="menu-container">
+            <button
+              class="menu-toggle js-close-menu"
+              type="button"
+              aria-expanded="false"
+              aria-controls="menu-container"
+            >
+              <svg class="menu-icon" aria-label="Переключатель мобильного меню">
+                <use
+                  class="icon-cross"
+                  href="./images/sprite-mob.svg#icon-close"
+                ></use>
+              </svg>
+            </button>
+
+            <div class="menu-container__nav">
+              <div class="mobile__auth">
+                <ul class="auth__list list">
+                  <li class="auth__item">
+                    <a class="auth__link link" href="">Log in / registration</a>
+                  </li>
+                  <li class="auth__item">
+                    <a class="auth__link link" href="">Book table</a>
+                  </li>
+                </ul>
+              </div>
+
+              <ul class="site-nav list">
+                <li class="site-nav__item">
+                  <a class="site-nav__link link-close-menu link" href=""
+                    >Home</a
+                  >
+                </li>
+                <li class="site-nav__item">
+                  <a class="site-nav__link link-close-menu link" href=""
+                    >Pages</a
+                  >
+                </li>
+                <li class="site-nav__item">
+                  <a class="site-nav__link link-close-menu link" href=""
+                    >Contact Us</a
+                  >
+                </li>
+                <li class="site-nav__item">
+                  <a class="site-nav__link link-close-menu link" href=""
+                    >Blog</a
+                  >
+                </li>
+                <li class="site-nav__item">
+                  <a class="site-nav__link link-close-menu link" href=""
+                    >Landing</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="auth">
+            <ul class="auth__list list">
+              <li class="auth__item">
+                <a class="auth__link link" href="">Log in / registration</a>
+              </li>
+              <li class="auth__item">
+                <a class="auth__link link" href="">Book table</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                              Секція герой                               -->
+    <!-- ----------------------------------------------------------------------- -->
+    <section class="hero hero--overlay">
+      <div class="container">
+        <div class="bar">
+          <ul class="list">
+            <li class="">#Bar</li>
+            <li class="">#Gericht</li>
+          </ul>
+        </div>
+        <div class="wrap-hero">
+          <p>Chase the new Flavour</p>
+          <h1 class="hero__title">The key to Fine dining</h1>
+          <p>
+            Sit tellus lobortis sed senectus vivamus molestie. Condimentum
+            volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
+            aliquam amet tellus
+          </p>
+          <button type="button">Explore Menu</button>
+        </div>
+        <div>
+          <img
+            src="./images/hero/hero_img.jpg"
+            alt="food"
+            width="620"
+            height="680"
+          />
+        </div>
+      </div>
+    </section>
+     <!-- ----------------------------------------------------------------------- -->
+      <!--                              Секція про нас                             -->
+      <!-- ----------------------------------------------------------------------- -->
+      <section class="section">
+        <div class="container">
+          <div class="about">
+            <h2 class="about__title">About Us</h2>
+            <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
+            <button class="about__button" type="button">Know More</button>
+          </div>
+          <div class="about">
+            <h2 class="about__title">Our History</h2>
+            <p class="about__text">Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.</p>
+            <button class="about__button" type="button">Know More</button>
+          </div>      
+        </div>
+      </section>
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                             Секція послуги                              -->
+      <!-- ----------------------------------------------------------------------- -->
+      <section class="section">
+        <div class="container">
+         
+          <p>Reservations</p>
+          <h2>Book A Table</h2>
+          <div class="form-wrap">
+            <form class="form">
+              <select>
+                <option value="1 Person" selected>1 Person</option>
+                <option value="2 Persons">2 Persons</option>
+                <option value="3 Persons">3 Persons</option>
+                <option value="4 Persons">4 Persons</option>
+                <option value="more than 4"> more than 4</option>
+              </select>
+              <div class="form__data"> 
+                <label>
+                  <input id='calendar' class="calendar" type="date">
+                </label>
+              </div>
+              <div class="form__time"> 
+              <label>
+                <input id='clock' class="clock" type="time">
+              </label>
+            </div>
+            </form>
+          </div>
+          
+        </div>
+      </section>
+  </main>
+  </body>
+</html>

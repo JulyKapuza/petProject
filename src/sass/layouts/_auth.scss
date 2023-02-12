@@ -1,0 +1,54 @@
+.auth {
+  display: none;
+
+  @include tablet {
+    display: block;
+  }
+}
+
+.mobile__auth {
+  display: block;
+
+  @include tablet {
+    display: none;
+  }
+}
+
+.auth__list {
+  display: flex;
+}
+
+.auth__list {
+  position: relative;
+}
+.auth__link {
+  display: block;
+  font-family: var(--title-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 1.94px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    font-size: 12px;
+  }
+}
+
+.auth__item::after {
+  @include tablet {
+    position: absolute;
+    top: 12px;
+    content: '';
+    width: 1px;
+    background: #f5f0f0;
+    left: 155px;
+    height: 15px;
+  }
+
+  @include desktop {
+    left: 170px;
+    height: 20px;
+  }
+}

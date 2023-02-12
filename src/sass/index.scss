@@ -1,0 +1,55 @@
+// UTILS
+@import './utils/vars';
+@import './utils/visually-hidden';
+@import './utils/mixins';
+// @import './utils/placeholder';
+
+// BASE
+@import './base/common';
+@import './base/container';
+
+// LAYOUTS
+
+// HEADER
+@import './layouts/header';
+
+@import './layouts/main-nav';
+// @import './layouts/button-primary';
+@import './layouts/logo';
+@import './layouts/site-nav';
+@import './layouts/auth';
+
+
+// Mobile-menu
+@import './layouts/mobile-menu';
+
+
+// HERO
+@import './layouts/hero';
+
+// ABOUT
+// @import './layouts/about';
+
+// SERVICES
+@import './layouts/services';
+
+// Galery
+// @import './layouts/gallery-works';
+
+// WORKS
+// @import './layouts/works';
+// @import './layouts/gallery';
+
+// REVIEWS
+// @import './layouts/slider';
+
+// TEAM
+// @import './layouts/team';
+
+// Cooperation
+// @import './layouts/cooperation';
+
+// FOOTER
+// @import './layouts/footer-top';
+// @import './layouts/socials';
+// @import './layouts/footer-bottom';

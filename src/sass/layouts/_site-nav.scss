@@ -1,0 +1,38 @@
+.site-nav {
+  @include tablet {
+    display: flex;
+  }
+}
+
+.site-nav__link {
+  display: block;
+  font-family: var(--title-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 1.94px;
+
+  color: #ffffff;
+  padding: 10px 10px 10px 30px;
+
+  &:hover,
+  &:focus {
+    color:var(--accent-color);
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding: 10px 10px 10px 10px;
+    font-size: 12px;
+  }
+
+}
+
+.site-nav__item {
+  @media screen and (max-width: 767px) {
+    border-top: 1px solid var(--primary-text-color);
+
+    &:last-child {
+      border-bottom: 1px solid var(--primary-text-color);
+    }
+  }
+}

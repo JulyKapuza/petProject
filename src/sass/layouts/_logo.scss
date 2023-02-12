@@ -1,0 +1,31 @@
+.logo {
+  font-family: var(--title-font);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+
+  color: var(--white-color);
+
+  @media screen and (min-width: 768px) {
+    flex-grow: 1;
+  }
+}
+
+.tracking-in-expand {
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
