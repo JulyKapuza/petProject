@@ -1,21 +1,21 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #0C0B08;
-    color: var(--primary-text-color);
-    font-family: var(--main-font);
-    font-size: 14px;
-    // background-color: #000000;
-    //     color: #fff;
+  background-color: #0c0b08;
+  color: var(--primary-text-color);
+  font-family: var(--main-font);
+  font-size: 14px;
+  // background-color: #000000;
+  //     color: #fff;
 }
 
 body.modal-open {
-    overflow: hidden;
+  overflow: hidden;
 }
 .body.no-scroll {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 h1,
@@ -25,20 +25,19 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+  margin: 0;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-
 .list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 // .section {
@@ -56,7 +55,5 @@ img {
 // }
 
 .link {
-    text-decoration: none;
-
+  text-decoration: none;
 }
-

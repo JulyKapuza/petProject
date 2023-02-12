@@ -7,10 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;600;700&family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Babylonica&family=Cormorant+Upright:wght@400;600;700&family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
 
     <link rel="stylesheet" href="./sass/index.scss" />
     <script type="module" src="./index.js"></script>
@@ -107,52 +111,55 @@
       </div>
     </header>
     <main>
-    <!-- ----------------------------------------------------------------------- -->
-    <!--                              Секція герой                               -->
-    <!-- ----------------------------------------------------------------------- -->
-    <section class="hero hero--overlay">
-      <div class="container">
-        <div class="bar">
-          <ul class="list">
-            <li class="">#Bar</li>
-            <li class="">#Gericht</li>
-          </ul>
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                              Секція герой                               -->
+      <!-- ----------------------------------------------------------------------- -->
+      <section class="hero hero--overlay">
+        <div class="container">
+          <div class="bar">
+            <ul class="list">
+              <li class="">#Bar</li>
+              <li class="">#Gericht</li>
+            </ul>
+          </div>
+          <div class="wrap-hero">
+            <p>Chase the new Flavour</p>
+            <h1 class="hero__title">The key to Fine dining</h1>
+            <p>
+              Sit tellus lobortis sed senectus vivamus molestie. Condimentum
+              volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
+              aliquam amet tellus
+            </p>
+            <button type="button">Explore Menu</button>
+          </div>
+          <div>
+            <img src="./images/hero/hero_img.jpg" alt="food" width="350" />
+          </div>
         </div>
-        <div class="wrap-hero">
-          <p>Chase the new Flavour</p>
-          <h1 class="hero__title">The key to Fine dining</h1>
-          <p>
-            Sit tellus lobortis sed senectus vivamus molestie. Condimentum
-            volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
-            aliquam amet tellus
-          </p>
-          <button type="button">Explore Menu</button>
-        </div>
-        <div>
-          <img
-            src="./images/hero/hero_img.jpg"
-            alt="food"
-            width="620"
-            height="680"
-          />
-        </div>
-      </div>
-    </section>
-     <!-- ----------------------------------------------------------------------- -->
+      </section>
+      <!-- ----------------------------------------------------------------------- -->
       <!--                              Секція про нас                             -->
       <!-- ----------------------------------------------------------------------- -->
       <section class="section">
         <div class="container">
           <div class="about">
             <h2 class="about__title">About Us</h2>
-            <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
+              pharetra adipiscing ultrices vulputate posuere tristique. In sed
+              odio nec aliquet eu proin mauris et.
+            </p>
             <button class="about__button" type="button">Know More</button>
           </div>
           <div class="about">
             <h2 class="about__title">Our History</h2>
-            <p class="about__text">Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.</p>
+            <p class="about__text">
+              Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.
+              Risus placerat morbi volutpat habitasse interdum mi aliquam In sed
+              odio nec aliquet.
+            </p>
             <button class="about__button" type="button">Know More</button>
-          </div>      
+          </div>
         </div>
       </section>
       <!-- ----------------------------------------------------------------------- -->
@@ -160,7 +167,6 @@
       <!-- ----------------------------------------------------------------------- -->
       <section class="section">
         <div class="container">
-         
           <p>Reservations</p>
           <h2>Book A Table</h2>
           <div class="form-wrap">
@@ -170,23 +176,269 @@
                 <option value="2 Persons">2 Persons</option>
                 <option value="3 Persons">3 Persons</option>
                 <option value="4 Persons">4 Persons</option>
-                <option value="more than 4"> more than 4</option>
+                <option value="more than 4">more than 4</option>
               </select>
-              <div class="form__data"> 
+              <div class="form__data">
                 <label>
-                  <input id='calendar' class="calendar" type="date">
+                  <input id="calendar" class="calendar" type="date" />
                 </label>
               </div>
-              <div class="form__time"> 
-              <label>
-                <input id='clock' class="clock" type="time">
-              </label>
-            </div>
+              <div class="form__time">
+                <label>
+                  <input id="clock" class="clock" type="time" />
+                </label>
+              </div>
             </form>
           </div>
-          
         </div>
       </section>
-  </main>
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                             Секція меню                              -->
+      <!-- ----------------------------------------------------------------------- -->
+      <section class="section">
+        <div class="container">
+          <h2>Menu</h2>
+          <ul class="list">
+            <li class=""><a class="link">Bar Menu</a></li>
+            <li class=""><a class="link">Food Menu</a></li>
+            <li class=""><a class="link">Desserts Menu</a></li>
+          </ul>
+        </div>
+      </section>
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                             Секція спец пропозиція                      -->
+      <!-- ----------------------------------------------------------------------- -->
+      <section class="section">
+        <div class="container">
+          <p>Menu that fits you palatte</p>
+          <h2>Today’s Special</h2>
+          <div>
+            <h3>Wine & Beer</h3>
+            <ul class="list">
+              <li class="">
+                <ul>
+                  <li>Chapel Hill Shiraz</li>
+                  <li>$56</li>
+                  <li>AU | Bottle</li>
+                </ul>
+              </li>
+              <li class="">
+                <ul>
+                  <li>Catena Malbec</li>
+                  <li>$59</li>
+                  <li>AR | Bottle</li>
+                </ul>
+              </li>
+              <li class="">
+                <ul>
+                  <li>La Vieille Rosé</li>
+                  <li>$44</li>
+                  <li>FR | 750 ml</li>
+                </ul>
+              </li>
+              <li class="">
+                <ul>
+                  <li>Rhino Pale Ale</li>
+                  <li>$31</li>
+                  <li>CA | 750 ml</li>
+                </ul>
+              </li>
+              <li class="">
+                <ul>
+                  <li>Irish Guinness</li>
+                  <li>$26</li>
+                  <li>IE | 750 ml</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Cocktails</h3>
+            <ul class="list">
+              <li class="">
+                <ul>
+                  <li>Aperol Spritz</li>
+                  <li>$20</li>
+                  <li>Aperol | Villa Marchesi prosecco | soda | 30ml</li>
+                </ul>
+              </li>
+              <li class="">
+                <ul>
+                  <li>Dark 'N' Stormy</li>
+                  <li>$16</li>
+                  <li>Dark rum | Ginger beer | Slice of lime.</li>
+                </ul>
+              </li>
+              <li class="">
+                <ul>
+                  <li>Daiquiri</li>
+                  <li>$10</li>
+                  <li>Rum | Citrus juice | Sugar</li>
+                </ul>
+              </li>
+              <li class="">
+                <ul>
+                  <li>Old Fashioned</li>
+                  <li>$31</li>
+                  <li>Bourbon | Brown sugar | Angostura Bitters</li>
+                </ul>
+              </li>
+              <li class="">
+                <ul>
+                  <li>Negroni</li>
+                  <li>$26</li>
+                  <li>Gin | Sweet Vermouth | Campari | Orange garnish</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <button type="button">View More</button>
+        </div>
+      </section>
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                                  Chef                                   -->
+      <!-- ----------------------------------------------------------------------- -->
+      <section class="section">
+        <div class="container">
+          <div><img src="./images/chef/chef.jpg" alt="Chef" width="270" /></div>
+          <div>
+            <p>Chef’s Word</p>
+            <h2>What we believe in</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit
+              .auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget
+              sit. Nulla scelerisque scelerisque congue ac consequat, aliquam
+              molestie lectus eu. Congue iaculis integer curabitur semper sit
+              nunc.
+            </p>
+            <p>Kevin Luo</p>
+            <p>Chef & Founder</p>
+            <p class="sign">Kevin Luo</p>
+          </div>
+        </div>
+      </section>
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                            Секція клієнти                               -->
+      <!-- ----------------------------------------------------------------------- -->
+      <section class="section">
+        <div class="container">
+          <p>Testimony</p>
+          <h2>Happy customers</h2>
+          <div>
+            <ul class="list">
+              <li>
+                <img src="./images/customers/wade.jpg" alt="Wade" width="250" />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
+                  sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
+                  Nulla scelerisque scelerisque congue.
+                </p>
+                <p>Wade Warren</p>
+                <p>Sommelier</p>
+              </li>
+              <li>
+                <img src="./images/customers/jane.jpg" alt="Jane" width="250" />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
+                  sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
+                  Nulla scelerisque scelerisque congue.
+                </p>
+                <p>Jane Cooper</p>
+                <p>Chef</p>
+              </li>
+              <li>
+                <img
+                  src="./images/customers/robert.jpg"
+                  alt="Robert"
+                  width="250"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
+                  sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
+                  Nulla scelerisque scelerisque congue.
+                </p>
+                <p>Robert Fox</p>
+                <p>Chef</p>
+              </li>
+              <li>
+                <img
+                  src="./images/customers/brooklyn.jpg"
+                  alt="Brooklyn"
+                  width="250"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
+                  sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
+                  Nulla scelerisque scelerisque congue.
+                </p>
+                <p>Brooklyn Simmons</p>
+                <p>Caterer</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                                 Awards                                  -->
+      <!-- ----------------------------------------------------------------------- -->
+      <section class="section">
+        <div class="container">
+          <div>
+            <p>Awards & recognition</p>
+            <h2>Our Laurels</h2>
+
+            <ul class="awards list">
+              <li class="awards__item">
+                <div class="awards__wrap">
+                  <svg class="awards__icon">
+                    <use href="./images/sprite-mob.svg#icon-bib"></use>
+                  </svg>
+                </div>
+                <h3 class="awards__title">Bib Gourmond</h3>
+                <p class="awards__text">
+                  Lorem ipsum dolor sit amet, consectetur.
+                </p>
+              </li>
+              <li class="awards__item">
+                <div class="awards__wrap">
+                  <svg class="awards__icon">
+                    <use href="./images/sprite-mob.svg#icon-star"></use>
+                  </svg>
+                </div>
+                <h3 class="awards__title">Rising Star</h3>
+                <p class="awards__text">
+                  Lorem ipsum dolor sit amet, consectetur.
+                </p>
+              </li>
+              <li class="awards__item">
+                <div class="awards__wrap">
+                  <svg class="awards__icon">
+                    <use href="./images/sprite-mob.svg#icon-aa"></use>
+                  </svg>
+                </div>
+                <h3 class="awards__title">AA Hospitality</h3>
+                <p class="awards__text">
+                  Lorem ipsum dolor sit amet, consectetur.
+                </p>
+              </li>
+              <li class="awards__item">
+                <div class="awards__wrap">
+                  <svg class="awards__icon">
+                    <use href="./images/sprite-mob.svg#icon-chef"></use>
+                  </svg>
+                </div>
+                <h3 class="awards__title">Outstanding Chef</h3>
+                <p class="awards__text">
+                  Lorem ipsum dolor sit amet, consectetur.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <img src="./images/awards/awards.jpg" alt="Food" width="250" />
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
