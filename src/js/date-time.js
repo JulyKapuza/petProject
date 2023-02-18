@@ -1,5 +1,4 @@
 import flatpickr from "flatpickr";
-// const flatpickr = require("flatpickr");
 
 const step = document.querySelector('.flatpickr-minute');
 console.log(step);
@@ -11,7 +10,7 @@ flatpickr("#clock", {
         time_24hr: false, 
         dateFormat: "H:i", 
         defaultHour: 11,
-        // defaultMinute: 00,
+       
         minTime: "11:00",
     maxTime: "23:00",
     minuteIncrement: 30,
